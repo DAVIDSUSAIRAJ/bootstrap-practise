@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!-- this is external stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootsrap.css" />
+    <!-- This is Bootstrap stylesheet -->
+    <link rel="stylesheet" href="./assets/css/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1>This is Bootstrap</h1>
+    </div>
+    <div class="container-sm">
+      <div class="row">
+        <div class="col-xm-12 col-sm-6 col-md-4 bg">row1 col1</div>
+        <div class="col-xm-12 col-sm-6 bg col-md-4">row1 col2</div>
+        <div class="col-xm-12 col-md-4 bg">row1 col3</div>
+      </div>
+      <div class="row">
+        <div class="col-xm col-sm-6 bg">row2 col1</div>
+        <div class="col-xm col-sm-6 bg">row2 col2</div>
+        <div class="col-xm bg">row2 col3</div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6 bg">row3 col1</div>
+        <div class="col-12 col-sm-6 bg">row3 col2</div>
+        <div class="col-12 bg">row3 col3</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-lg-center">
+        <div class="col-xm-12 col-md-2 bg">
+          1 of 3
+        </div>
+        <div class="col-xm-12 col-md-2 bg">
+          Variable width content
+        </div>
+        <div class="col-xm-12 col-md-2 bg">
+          3 of 3
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col bg">
+          1 of 3
+        </div>
+        <div class="col-md-auto bg">
+          Variable width content
+        </div>
+        <div class="col-lg-2 bg">
+          3 of 3
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 bg">col-sm-8</div>
+        <div class="col-sm-4 bg">col-sm-4</div>
+      </div>
+      <!-- THIS IS ROW COLUMNS 2 -->
+      <!-- THIS IS ROW COLUMNS 3 -->
+      <!-- THIS IS ROW COLUMNS 4 DEFULT BEHAVIOUR -->
+      <!-- 4 COLUMNS HAVE IN THE COLUMN -->
+      <!-- 4 columns have in the row but cols 6 givven 
+      in the row , what happened? 2 coumns hold in the 
+    rows that all. -->
+
+      <div class="row row-cols-6">
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+      </div>
+      <!-- THIS IS ROW-COLS-1 AND ROW COLS-2 -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+      </div>
+      <!-- MOBILE DEVICE ROW COLS HAVE 4 AND TABLET DEVICE  -->
+      <div class="row row-cols-4 row-cols-sm-3">
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+        <div class="col bg">Column</div>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-3">
+        <div class="col-sm-2 bg">Column5</div>
+        <div class="col-sm-7 bg">Column5</div>
+        <div class="col-sm-3 bg">Column5</div>
+        <div class="col-xm-12 bg">Column5</div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- THIS IS GRID AND ALIGN ITEM  -->
+    <!-- THIS IS NEW GRID EXAMPLE -->
+    <div class="container-sm text-center color">
+      <div class="row">
+        <div class="col-xm-12 col-sm-3 bg">logo</div>
+        <div class="col-xm-12 col-sm-6 bg">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact us</li>
+          </ul>
+        </div>
+        <div class="col-xm-12 col-sm-3 bg">
+          <button>login</button>
+        </div>
+      </div>
+
+      <div class="row align-items-stretch text-center" style="height: 200px;">
+        <div class="col-xm-12 col-sm-3 bg">left side bar</div>
+        <div class="col-xm-12 col-sm-9 bg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eaque
+          suscipit amet culpa ea, commodi blanditiis sequi inventore hic totam
+          ut ratione, dolor quos vero? Impedit eligendi facere rerum odio?
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xm-12 bg">footer</div>
+      </div>
+
+      <hr />
+      <div class="row justify-content-sm-between">
+        <div class="col-xm-12 col-sm-3 bg">coumnfooter</div>
+        <div class="col-xm-12 col-sm-3 bg">column2</div>
+        <div class="col-xm-12 col-sm-3 bg">column5</div>
+      </div>
+      <!-- THIS IS OFFSET IN BOOTSTRAP  -->
+      <!-- THIS IS OFFSET IN THE BOOTSTRAP -->
+      <div class="row" style="height: 100px;">
+        <div class="col-3 bg">end1</div>
+        <div class="col-3 offset-3 bg">end2</div>
+        <div class="col-3 bg">end3</div>
+      </div>
+      <!-- ALIGN SELF CENTER AND START END -->
+      <div class="row" style="height: min-100px;">
+        <div class="col-xm-12 col-sm-3 bg">this end</div>
+        <div class="col-xm-12 col-sm-3 bg">this is end</div>
+        <div class="col-xm-12 col-sm-3 bg">this is end</div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+
+    <div class="container-sm text-center color">
+      <div class="row">
+        <div class="col-sm bg">logo</div>
+        <div class="col-sm bg">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact us</li>
+          </ul>
+        </div>
+        <div class="col-sm bg">
+          <button>login</button>
+        </div>
+      </div>
+      <div class="row align-items-stretch text-center" style="height: 200px;">
+        <div class="col-sm-3 bg">left side bar</div>
+
+        <div class="col-sm bg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eaque
+          suscipit amet culpa ea, commodi blanditiis sequi inventore hic totam
+          ut ratione, dolor quos vero? Impedit eligendi facere rerum odio?
+        </div>
+      </div>
+      <div class="row">
+        <div class="col bg">footer</div>
+      </div>
+      <hr />
+      <div class="row justify-content-sm-between">
+        <div class="col-sm bg">coumnfooter</div>
+        <div class="col-sm bg">column2</div>
+        <div class="col-sm bg">column5</div>
+      </div>
+      <!-- THIS IS OFFSET IN BOOTSTRAP  -->
+      <!-- THIS IS OFFSET IN THE BOOTSTRAP -->
+      <div class="row" style="height: 100px;">
+        <div class="col bg">end1</div>
+        <div class="col bg">end2</div>
+        <div class="col bg">end3</div>
+      </div>
+      <!-- ALIGN SELF CENTER AND START END -->
+      <div class="row" style="height: min-100px;">
+        <div class="col-sm bg">this end</div>
+        <div class="col-sm bg">this is end</div>
+        <div class="col-sm bg">this is end</div>
+      </div>
+    </div>
+    <!-- THIS IS SHOELACE IN THE GRID IN BOOTSTRAP -->
+    <br /><br /><br /><br /><br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 bg">left</div>
+        <div class="col-sm-7 bg">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+          ipsum doloremque omnis corporis beatae sed nostrum cum, dolore
+          veritatis eveniet at quod, aliquam, ab in laudantium? Dicta dolor
+          accusantium nisi!
+        </div>
+        <div class="col-sm-2 bg">right</div>
+      </div>
+    </div>
+
+    <br /><br /><br />
+    <p><abbr title="attribute">attr</abbr></p>
+    <p>
+      <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+    </p>
+
+    <p><abbr title="attribute" class="p-5">attr</abbr></p>
+    <p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <!-- THIS IS TYPOGRAPHY -->
+    <p>
+      <span class="h2"
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+        voluptate corrupti et hic quaerat debitis perferendis aut, non
+        laudantium aliquid alias consequuntur fuga, ipsam harum modi delectus
+        repudiandae, rerum labore.</span
+      >
+    </p>
+    <!-- THIS IS DISPLAY PROPERTY IN BOOTSTRAP -->
+    <h1 class="displafy-1">
+      Welcome David <small class="text-muted">(Administrator)</small>
+    </h1>
+    <p class="lead">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores mollitia
+      sint reiciendis ullam libero necessitatibus harum nulla sapiente molestias
+      porro magni quibusdam consequatur provident eveniet earum eum, in quaerat
+      veniam?
+    </p>
+
+    <p><abbr title="attribute">attr</abbr></p>
+    <p><abbr title="HyperText Markup Language">HTML</abbr></p>
+
+    <ul class="list-unstyled">
+      <li>list1</li>
+      <li>list2</li>
+      <li>
+        <ul class="list-unstyled">
+          <li>list 1</li>
+          <li>list 2</li>
+          <li>list 3</li>
+        </ul>
+      </li>
+
+      <li>list4</li>
+      <li>list5</li>
+    </ul>
+
+    <ul class="list-inline">
+      <li class="list-inline-item">Home</li>
+      <li class="list-inline-item">About</li>
+      <li class="list-inline-item">Contact us</li>
+    </ul>
+
+    <!-- THIS IS BLOCKQUOTE -->
+    <blockquote class="blockquote text-centerr text-end">
+      <p>this is a blockquote this is very important</p>
+      <footer class="blockquote-footer">
+        David
+      </footer>
+    </blockquote>
+    <h1 class="text-light text-center bg-success px-5">THIS IS HEADING</h1>
+    <!-- primary secondary success danger warning dark light info this is text and bg and link   -->
+    <!-- text-white text-dark text-body text-info -->
+    <!-- <div class="img text-center"> -->
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/G_of_google.gif" alt="google symbol" class="img-fluid img-thumbnail" width="250px" height="150px"> -->
+    <!-- </div> -->
+
+    <!-- IMG-FLUID, IMG-THUMBNAIL, ROUNDED, FLOAT-START,FLOAT-END,TEXT-CENTER IN DIV , MX-AUTO D-BLOCK  -->
+
+    <br /><br /><br /><br /><br />
+    <div class="images text-center">
+      <img
+        src="https://www.lifewire.com/thmb/zbZ9KLuOE67w8dhwBtdnpZRgN7A=/3000x1687/smart/filters:no_upscale()/tomatovectorguy-9be92cbcf9044bffac8067c6519d74e5.jpg"
+        alt="qustion mark"
+        width="300px"
+        class="float-end"
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8LSuG6zwzncznAihEFg9j2x-02LSXOBbICA&usqp=CAU"
+        alt="birds"
+        class="float-start"
+      />
+    </div>
+    <div class="clearfix"></div>
+    <br /><br />
+    <div class="container-sm">
+      <table
+        class="table table-bordered table-hover text-center table-primary text-danger border-danger table-striped"
+      >
+        <thead class="table-lighyt">
+          <tr>
+            <th>#ID</th>
+            <th>name</th>
+            <th>course</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Davi</td>
+            <td>Gaja</td>
+            <td>Vinoth</td>
+          </tr>
+          <tr>
+            <td>Davi</td>
+            <td>Gaja</td>
+            <td>Vinoth</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br /><br /><br />
+
+    <table
+      class="table table-bordered table-danger table-hover border-danger text-danger"
+    >
+      <thead class="table-info">
+        <tr class="table-active">
+          <th>#</th>
+          <th>First</th>
+          <th>Last</th>
+          <th>Handle</th>
+        </tr>
+      </thead>
+      <tbody class="table-light table-stiped">
+        <tr>
+          <th>1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr class="table-succesgs table-striped table-active table-primary">
+          <th>2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr class="table-secondargy table-active">
+          <th>3</th>
+          <td colspan="1">Larry the Bird</td>
+          <td>@twitter</td>
+          <td>bootstrap</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br /><br /><br />
+    <div class="container-sm">
+      <div class="table-responsive">
+        <table
+          class="table table-sms table-borderded border-danger text-center text-primary table-hover table-striped table-borderless"
+        >
+          <thead>
+            <tr class="table-active">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr class="table-active">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+            <tr class="table-active">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+            <tr class="table-active">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+            <tr class="table-active">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+            <tr class="table-active">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+            <tr class="table-active">
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <header>
+      <nav class="navbar navbar-light bg-primary navbar-expand-lg">
+        <div class="container-sm">
+          <a href="#" class="navbar-brand"
+            ><img
+              src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+              alt="bimag"
+              width="30"
+              height="24"
+              class="d-inline-block align-bottom"
+            />
+            bootsrap tamil</a
+          >
+          <!-- <span class="navbar-brand"><img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="bootstrapimage" width="30" height="24" class="align-bottom d-inline-block">   bootstrap tamil</span> -->
+          <button
+            type="button"
+            class="navbar-toggler"
+            date-bs-toggle="collapse"
+            data-bs-target="#navBar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navBar">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item"><a href="#" class="nav-link active">home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+              <li class="nav-item"><a href="#" class="nav-link disabled">contact</a></li>
+              <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbarDown" role="button" data-bs-toggle="dropdown">help</a></li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDown">
+<li><a href="#" class="dropdown-item">facebook</a></li>
+<li><a href="#" class="dropdown-item">youtube</a></li>
+<li><hr class="dropdown-divider"></li>
+
+
+              </ul>
+
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- JS STYLE SHEET -->
+    <link rel="stylesheet" href="./assets/css/js/bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="./assets/css/js/bootstrap.min.js">
+  </body>
+</html>

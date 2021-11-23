@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="web Development">
+    <meta name="keywords" content="scrollspy,bootstrap">
+    <meta name="author" content="David">
+    <title> &pound;scrollspy</title>
+    <!-- THIS IS SHORT ICON IN HEADING -->
+    <link rel="shortcut icon" href="assets/images/30163.png" type="image/x-icon">
+    <!-- THIS IS BOOTSTRAP CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- THIS IS FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- THIS IS EXTERNAL LINK -->
+    <link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+
+<body>
+    <!-- THIS IS NAV HEADER -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary d-block position-fixed w-100">
+            <div class="container-sm">
+                <a class="navbar-brand" href="#"><img src="assets/images/wp2052055.png" alt="" width="30" height="24"
+                        class="d-inline-block align-text-bottom">Scrollspy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#link">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#dropdown">Action</a></li>
+                                <li><a class="dropdown-item" href="#aaction">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2 flex-start" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light flex-end" type="submit">Search</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- THIS IS MAIN PAGEF -->
+
+    <main>
+
+        <!--  THIS IS FIRST SECTION -->
+        <section class="m-3 p-3 bg-light d-block" style="text-align: justify;" id="home">
+
+            <hr class="mt-3">
+
+            <h3 class="text-center p-2">This is first section HOME</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus enim illum id ut repudiandae provident
+                quo odit. Minima sed, quas provident doloremque doloribus tempora? Quis, accusantium in! Accusamus, et
+                inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit aliquam, optio alias
+                quo vitae expedita aut. Reiciendis quae voluptatem enim placeat inventore, rem, deleniti architecto
+                distinctio ullam cum, et culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio
+                voluptatibus soluta provident aspernatur repellat ullam maxime minima eveniet obcaecati mollitia, velit
+                laboriosam animi illo eligendi odio aut magni! Veritatis.</p>
+
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis iste, corporis illum sit pariatur
+                doloremque repudiandae labore quis soluta harum qui. Veniam provident nobis dicta inventore eveniet nemo
+                cumque sequi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt amet similique earum rerum fugit
+                voluptate odit ratione? Repellendus, possimus fugiat! Similique magnam architecto accusantium ut
+                obcaecati autem in officia laudantium.
+            </p>
+
+        </section>
+
+        <!-- THIS IS SECOND SECTION -->
+        <section class="m-3 p-3 bg-warning" style="text-align: justify;" id="link">
+
+            <hr class="mt-3">
+            <h3 class="text-center p-3">This is first section LINK</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus enim illum id ut repudiandae provident
+                quo odit. Minima sed, quas provident doloremque doloribus tempora? Quis, accusantium in! Accusamus, et
+                inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit aliquam, optio alias
+                quo vitae expedita aut. Reiciendis quae voluptatem enim placeat inventore, rem, deleniti architecto
+                distinctio ullam cum, et culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio
+                voluptatibus soluta provident aspernatur repellat ullam maxime minima eveniet obcaecati mollitia, velit
+                laboriosam animi illo eligendi odio aut magni! Veritatis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis iste, corporis illum sit pariatur
+                doloremque repudiandae labore quis soluta harum qui. Veniam provident nobis dicta inventore eveniet nemo
+                cumque sequi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt amet similique earum rerum fugit
+                voluptate odit ratione? Repellendus, possimus fugiat! Similique magnam architecto accusantium ut
+                obcaecati autem in officia laudantium.
+            </p>
+        </section>
+        <!-- THIS IS THIRD SECTION -->
+        <section class="m-3 p-3 bg-success" id="dropdown" style="text-align: justify;">
+            <br>
+            <hr class="mt-3">
+            <h3>This is first section DROPDOWN</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus enim illum id ut repudiandae provident
+                quo odit. Minima sed, quas provident doloremque doloribus tempora? Quis, accusantium in! Accusamus, et
+                inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit aliquam, optio alias
+                quo vitae expedita aut. Reiciendis quae voluptatem enim placeat inventore, rem, deleniti architecto
+                distinctio ullam cum, et culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio
+                voluptatibus soluta provident aspernatur repellat ullam maxime minima eveniet obcaecati mollitia, velit
+                laboriosam animi illo eligendi odio aut magni! Veritatis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis iste, corporis illum sit pariatur
+                doloremque repudiandae labore quis soluta harum qui. Veniam provident nobis dicta inventore eveniet nemo
+                cumque sequi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt amet similique earum rerum fugit
+                voluptate odit ratione? Repellendus, possimus fugiat! Similique magnam architecto accusantium ut
+                obcaecati autem in officia laudantium.
+            </p>
+        </section>
+        <!-- THIS IS ACTION -->
+        <section class="m-3 p-3 bg-info" id="aaction" style="text-align: justify;">
+            <br>
+            <hr class="mt-3">
+            <h3>This is first section INFO</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus enim illum id ut repudiandae provident
+                quo odit. Minima sed, quas provident doloremque doloribus tempora? Quis, accusantium in! Accusamus, et
+                inventore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit aliquam, optio alias
+                quo vitae expedita aut. Reiciendis quae voluptatem enim placeat inventore, rem, deleniti architecto
+                distinctio ullam cum, et culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero optio
+                voluptatibus soluta provident aspernatur repellat ullam maxime minima eveniet obcaecati mollitia, velit
+                laboriosam animi illo eligendi odio aut magni! Veritatis.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis iste, corporis illum sit pariatur
+                doloremque repudiandae labore quis soluta harum qui. Veniam provident nobis dicta inventore eveniet nemo
+                cumque sequi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt amet similique earum rerum fugit
+                voluptate odit ratione? Repellendus, possimus fugiat! Similique magnam architecto accusantium ut
+                obcaecati autem in officia laudantium.
+            </p>
+        </section>
+    </main>
+    <hr class="mt-3">
+    <!-- THIS IS SECOND MAIN -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <!-- THIS IS COL-4 LISTGROUP -->
+                <div class="col-md-4">
+                    <div class="list-grouptext-center" id="myTeam">
+                        <a href="#silambam"
+                            class="list-group-item list-group-item-action list-group-item-infoo p-3 active">silambam</a>
+                        <a href="#karate"
+                            class="list-group-item list-group-item-action list-group-item-primaryy p-3">karate</a>
+                        <a href="#vel" class="list-group-item list-group-item-action list-group-item-warningg p-3">vel
+                            vall</a>
+                        <a href="#surul"
+                            class="list-group-item list-group-item-action list-group-item-dangerr p-3">surul
+                            vaal</a>
+                        <a href="#katthi"
+                            class="list-group-item list-group-item-action list-group-item-successs p-3">katthi sndai</a>
+
+                    </div>
+                </div>
+                <div class="col-md-8" style="height: 300px; overflow-y: scroll;" data-bs-spy="scroll"
+                    data-bs-target="#myTeam" data-bs-offset="0" tabindex="0">
+                    <!-- THIS IS DIFINATION LIST GROUP -->
+                    <div id="silambam">
+                        <h1 class="text-center">silambam</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates maiores aspernatur
+                            tempora ab error nisi minus reiciendis illo necessitatibus ad nesciunt, repellat atque
+                            corporis vero totam nihil cum? Velit, aliquam. Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Unde at soluta similique necessitatibus porro optio possimus, eum officia
+                            deleniti distinctio vel, tempora debitis consectetur voluptatum, doloribus rerum commodi
+                            aliquid nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad a
+                            praesentium possimus iure voluptas reiciendis reprehenderit alias dicta repellendus
+                            recusandae neque, natus enim suscipit sint debitis, obcaecati iste quibusdam! Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. Est voluptates numquam iste ex, fuga quisquam
+                            repellendus consectetur accusamus, optio sed facere nobis labore amet eaque magni alias at,
+                            exercitationem quia? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+                            illum ipsum ipsa neque repellendus veritatis dolor officiis! Facilis itaque repellendus
+                            eaque eligendi eius earum blanditiis, sunt distinctio, aspernatur, provident veniam.</p>
+                    </div>
+                    <div id="karate">
+                        <h1 class="text-center">karate</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga accusantium atque quod, dolore
+                            assumenda nesciunt enim repellendus quia numquam quisquam error voluptates, nemo quaerat,
+                            dolores suscipit at quis inventore. Harum. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Amet voluptate quo corrupti aut! Dignissimos distinctio ut dolores
+                            similique! Ea sapiente molestias atque fuga quae quaerat cum, quas laudantium qui!
+                            Perferendis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, voluptatum
+                            adipisci molestiae velit error repellat asperiores possimus odio enim nam! Aperiam, eaque
+                            expedita. Maiores libero quaerat dolorem voluptatem, quia veniam. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Veritatis at error nam explicabo vero corrupti voluptatibus
+                            iusto tempore dolores fugit, adipisci nemo veniam dolorem quibusdam. Accusamus magni
+                            inventore modi error.</p>
+                    </div>
+                    <div id="vel">
+                        <h1 class="text-center">vel</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum ducimus libero
+                            cupiditate repudiandae explicabo dolor quos dicta provident deleniti. Sit facere quidem
+                            excepturi perferendis repudiandae asperiores pariatur itaque sunt. Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Numquam est sunt dolor dolorum saepe! Doloribus sed
+                            dolores consectetur quisquam. Quo aut ad atque qui quidem nemo quod veniam beatae similique!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta aperiam blanditiis!
+                            Ipsa voluptatum sunt blanditiis perspiciatis facere debitis non temporibus animi. Commodi
+                            nulla aut deleniti, explicabo similique cumque odio? </p>
+                    </div>
+                    <div id="surul">
+                        <h1 class="text-center">surul</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit dicta, exercitationem quod
+                            ipsa autem culpa nihil optio ratione iste? At odio excepturi blanditiis quis molestias
+                            suscipit similique vitae, magnam aliquam! Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Ipsa commodi soluta quae reiciendis amet perferendis cupiditate, beatae
+                            itaque dolor cumque assumenda dicta similique tempore quos! A dignissimos veritatis
+                            temporibus minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate omnis
+                            est, sed dicta impedit tempore ipsa iste iure, nam reiciendis eaque numquam aut a obcaecati
+                            odio deserunt neque nihil saepe.</p>
+                    </div>
+                    <div id="katthi">
+                        <h1 class="text-center">katthi</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At temporibus unde facilis
+                            similique, magnam, sunt sequi quo doloremque neque nam voluptates ex beatae. Ea qui labore
+                            eaque nihil deleniti voluptatibus.lo Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Porro facere et alias quaerat eligendi velit? Repellendus accusantium sed molestiae,
+                            dolores eaque praesentium fugiat debitis laudantium, at explicabo culpa saepe qui. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Impedit ullam sint deserunt quidem
+                            voluptatibus ratione et accusantium! Laborum temporibus debitis doloribus voluptate eveniet
+                            omnis, ipsum quos deleniti tempora distinctio maxime!</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- THIS IS SECOND END MAIN -->
+
+    <ul class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-center ms-5">
+
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Cras justo odio
+            </div>
+            <span class="badge bg-primary rounded-pill me-5">14</ span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Cras justo odio
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+                <div class="fw-bold">Subheading</div>
+                Cras justo odio
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+        </li>
+    </ul>
+
+
+
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+            <div class="d-flex w-100 justify-content-between">
+                <div>
+                    <h5 class="mb-1">List group item heading</h5>
+                </div>
+                <div> <small>3 days ago</small></div>
+            </div>
+            <p class="mb-1">Some placeholder content in a paragraph.</p>
+            <small>And some small print.</small>
+        </a>
+
+
+        <!--  -->
+        <!-- <div class="d-inline-block pt-4"> -->
+        <!-- <!-- <div class="spinner-grow text-primary pe-5" role="status"> --> -->
+        <!-- <!-- <span class="visually-hidden">Loading...</span> --> -->
+        <!-- </div> -->
+        <!-- <!-- <div class="spinner-grow text-secondary pe-5" role="status"> --> -->
+        <!-- <!-- <span class="visually-hidden">Loading...</span> --> -->
+        <!-- </div> -->
+        <!-- <!-- <div class="spinner-grow text-success" style="height: 20px; width: 20px;" role="status"> --> -->
+        <!-- <!-- <span class="visually-hidden">Loading...</span> --> -->
+        <!-- </div> -->
+        <!-- <!-- <div class="spinner-grow text-danger" role="status"> --> -->
+        <!-- <!-- <span class="visually-hidden">Loading...</span> --> -->
+        <!-- </div> -->
+        <!-- <!-- <div class="spinner-grow text-warning" role="status"> --> -->
+        <!-- <!-- <span class="visually-hidden">Loading...</span> --> -->
+        <!-- </div> -->
+        <!-- <div class="spinner-grow text-info" role="status"> -->
+        <!-- <!-- <span class="visually-hidden">Loading...</span> --> -->
+        <!-- </div> -->
+        <!-- <!-- <div class="spinner-grow text-light" role="status"> --> -->
+        <!-- <!-- <span class="visually-hidden">Loading...</span> --> -->
+        <!-- </div> -->
+        <!-- <div class="spinner-grow text-dark" role="status"> -->
+        <!-- <!-- <span class="visually-hidden">Loading...</span> --> -->
+        <!-- </div> -->
+
+    </div>
+    <!--  -->
+    <!-- <!-- <button type="button" class="btn btn-primary w-50 mx-auto disabled"> --> -->
+    <!-- <!-- <div class="spinner-border"></div> &nbsp; loading..... --> -->
+    <!-- </button> -->
+    <!--  -->
+
+    <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            <!-- </div> -->
+        </div>
+
+
+
+
+
+
+
+
+
+        <br><br><br><br>
+
+         
+        இரட்டை சதம் அடித்து அடுத்த வெற்றியை நோக்கி பயணித்துக்கொண்டிருக்கும் CyberDude            Networks Pvt. Ltd. 
+        channel- க்கும் குருநாதர் அன்பு அவர்களுக்கும் என்னுடைய மனமார்ந்த நன்றிகள்.
+                21.5K subscribers;
+                203 வீடியோக்கள்;
+                HTML------> 25 VIDEOS, 87 MINUTES 54 SECONDS ONLY;
+                CSS--------> 30 VIDEOS, 206 MINUTES 59 SECONDS ONLY;
+                ADVANCED CSS----> 1 VIDEOS, 00 MINUTES 00 SECONDS ONLY;
+                JAVASCRIPT--> 84 VIDEOS, 709 MINUTES 26 SECONDS ONLY;
+                BOOTSTRAP---> 47 VIDEOS, 717 MINUTES 24 SECONDS ONLY;
+                CSS FLEXBOX--> 3 VIDEOS, 41 MINUTES 53 SECONDS ONLY;
+                WEB DESIGN---> 3 VIDEOS, 84 MINUTES 11 SECONDS ONLY;
+                CODING TIPS--> 2 VIDEOS, 26 MINUTES 53 SECONDS ONLY;
+                LIVE STREAM---> 2 VIDEOS, 145 MINUTES 7 SECONDS ONLY;
+                TRICKS AND HACKS--> 1 VIDEOS, 3 MINUTES 58 SECONDS ONLY;
+                OTHERS (OLD IS GOLD)--> 5 VIDEOS, 31 MINUTES 59 SECONDS ONLY;
+                மொத்தம் 34 மணிநேரம் 19 நிமிடங்கள் 41 வினாடிகள் மட்டும். அதாவது 1 நாள் 9 மணிநேரம் 9 நிமிடங்கள் 21 
+        வினாடிகள்..
+        செதுக்கிய நேரங்கள் இவ்வளவுதான் !!!
+        இதற்காக உழைத்த நேரங்களும் சிதறிய நேரங்களும் எவ்வளவோ ???  
+        Introduction to Programming Language ------->75,184 views!! போடு தகிட தகிட !!!!!
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- THIS IS BOOTSTRAP BUNDLE.MIN.JS -->
+      
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+            crossorigin="anonymous"></script>
+      
+
+
+        <script>
+            var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+            var toastList = toastElList.map(function (toastEl) {
+                return new bootstrap.Toast(toastEl, option)
+            })
+
+
+
+
+
+
+        </script>
+</body>
+
+</html>
